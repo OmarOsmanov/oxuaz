@@ -22,7 +22,9 @@ namespace WebApplication2rtytryrt.Models
         public int Like { get; set; }
         public int UnLike { get; set; }
         public DateTime Createdate { get; set; }
-
+        public List<Image> Images { get; set; }
+        public List<CategoryToNews> CategoryToNews { get; set; }
+        public List<MuellifToNews> MuellifToNews { get; set; }
 
     }
 }

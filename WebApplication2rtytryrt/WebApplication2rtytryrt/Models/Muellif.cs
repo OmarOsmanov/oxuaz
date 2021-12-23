@@ -14,6 +14,8 @@ namespace WebApplication2rtytryrt.Models
         public string Name { get; set; }
         [MaxLength(50)]
         public string Surname { get; set; }
+        public List<Muellif> Muellifs { get; set; }
+
 
     }
 }
